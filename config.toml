@@ -1,4 +1,8 @@
 baseURL = "https://c10n.net"
 languageCode = "en-us"
-title = "c10n.net"
-theme = "KeepIt"
+title = "Alan Christianson"
+theme = "ananke"
+
+[params]
+  featured_image = "fruita.jpg"
+  description = "Solving problems slightly faster than I create them"
