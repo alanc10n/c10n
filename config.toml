@@ -6,3 +6,17 @@ theme = "ananke"
 [params]
   featured_image = "fruita.jpg"
   description = "Solving problems slightly faster than I create them"
+  github = "https://github.com/alanc10n"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    weight = 1
+    identifier = "about"
+    url = "/about/"
+
+  [[menu.main]]
+    name = "Publications"
+    weight = 2
+    identifier = "publications"
+    url = "/publications"
