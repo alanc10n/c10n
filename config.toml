@@ -20,3 +20,9 @@ theme = "ananke"
     weight = 2
     identifier = "publications"
     url = "/publications"
+
+  [[menu.main]]
+    name = "Blog"
+    weight = 3
+    identifier = "blog"
+    url = "/posts/"
