@@ -1,28 +1,40 @@
 baseURL = "https://c10n.net"
-languageCode = "en-us"
-title = "Alan Christianson"
-theme = "ananke"
+languageCode = "en"
+title = "c10n"
+theme = "hugo-coder"
+defaultContentLanguage = "en"
 
 [params]
-  featured_image = "fruita.jpg"
+  author = "Alan Christianson"
   description = "Solving problems slightly faster than I create them"
-  github = "https://github.com/alanc10n"
+  keywords = "blog,developer,personal"
+  info = ["Staff Software Engineer", "Infrastructure & Cloud"]
+  colorScheme = "auto"
+  hideColorSchemeToggle = false
 
-[menu]
-  [[menu.main]]
-    name = "About"
-    weight = 1
-    identifier = "about"
-    url = "/about/"
+[markup.highlight]
+  noClasses = false
 
-  [[menu.main]]
-    name = "Publications"
-    weight = 2
-    identifier = "publications"
-    url = "/publications"
+[markup.goldmark.renderer]
+  unsafe = true
 
-  [[menu.main]]
-    name = "Blog"
-    weight = 3
-    identifier = "blog"
-    url = "/posts/"
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/alanc10n"
+
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+
+[[menu.main]]
+  name = "Publications"
+  weight = 2
+  url = "publications/"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 3
+  url = "posts/"
