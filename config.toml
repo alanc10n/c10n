@@ -9,6 +9,7 @@ defaultContentLanguage = "en"
   description = "Solving problems slightly faster than I create them"
   keywords = "blog,developer,personal"
   info = ["Staff Software Engineer", "Infrastructure & Cloud"]
+  avatarURL = "avatar.png"
   colorScheme = "auto"
   hideColorSchemeToggle = false
 
@@ -23,6 +24,12 @@ defaultContentLanguage = "en"
   icon = "fa-brands fa-github fa-2x"
   weight = 1
   url = "https://github.com/alanc10n"
+
+[[params.social]]
+  name = "Bluesky"
+  icon = "fa-brands fa-bluesky fa-2x"
+  weight = 2
+  url = "https://bsky.app/profile/alanc10n.bsky.social"
 
 [[menu.main]]
   name = "About"
